@@ -1,0 +1,54 @@
+" ~/.vimrc
+
+
+set nocompatible
+set encoding=utf-8
+filetype plugin indent on
+syntax on
+
+" I like to keep the color scheme default and let the terminal set the
+" particular swatches.
+
+set number
+set wrap
+set cursorline
+set linebreak
+set columns=80
+
+" show open box symbol at the end of lines with trailing whitespace
+set list
+set listchars=tab:>-,trail:␣
+
+" always show this status line:
+" left: short file path, flags
+" right: file type, line number, column number, progress in file
+set laststatus=2
+set statusline=%f\ %m%r%h%w%=%y\ %l:%c\ %p%% 
+
+" indentation
+set expandtab
+set tabstop=4
+set softtabstop=4
+set shiftround
+set shiftwidth=4
+set autoindent
+
+" special indentation rules for particular languages
+augroup filetype_indent
+  autocmd!
+  autocmd FileType go setlocal noexpandtab tabstop=4 shiftwidth=4 softtabstop=0
+  autocmd FileType java setlocal tabstop=2 shiftwidth=2 softtabstop=2
+augroup END
+
+" search behavior
+set incsearch	" search while we type, before pressing <Enter>
+set hlsearch	" highlight search results
+set ignorecase
+set smartcase
+
+" editing
+set backspace=indent,eol,start
+set mouse=a     " mouse for all modes
+set wildmenu    " lets you complete commands with <Tab>
+
+

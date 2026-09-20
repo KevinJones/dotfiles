@@ -1,0 +1,13 @@
+[user]
+	email = kevin.chris.jones@gmail.com
+	name = Kevin Jones
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
