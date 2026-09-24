@@ -1,0 +1,7 @@
+# Main CTWM config, used for NetBSD and lightweight VMs.
+
+# be sure to put fonts first
+include(`/home/komma/.config/ctwm/fonts.ctwmrc')
+include(`/home/komma/.config/ctwm/theme.ctwmrc')
+include(`/home/komma/.config/ctwm/bindings.ctwmrc')
+include(`/home/komma/.config/ctwm/menus.ctwmrc')

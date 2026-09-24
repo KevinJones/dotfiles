@@ -1,0 +1,80 @@
+#
+# ctwmrc for a green theme
+#
+# This is not a complete configuration; it should be included from your
+# ~/.ctwmrc. Generally, CTWM 4 defaults are not set explicitly.
+
+
+# styling
+UseThreeDWMap
+UseThreeDBorders
+UseThreeDTitles
+UseThreeDWMap
+ThreeDBorderWidth         6
+BorderWidth               6
+
+WorkSpaceManagerGeometry  "60x240-4-4" 1
+IconManagerGeometry       "200x-1-1+0" 1
+
+
+# Title bar style
+TitleButtonShadowDepth    1
+TitleShadowDepth          1
+TitleButtonBorderWidth    0
+TitlePadding              0
+TitleJustification        "center"
+ButtonIndent              0
+FramePadding		  0
+NoTitleHighlight
+NoSqueezeTitle
+
+# dark blue = "#024aca"
+# light gray = "#d7d7d7"
+# color.accent = "#f68f37"
+
+# magenta-cooler #b6a0ff
+# bg-dim #1e1e1e
+# fg-dim #989898
+
+Color
+{
+	DefaultBackground       "#1e1e1e"
+	DefaultForeground       "#989898"
+
+	MenuBackground			"#1e1e1e"
+	MenuForeground			"#989898"
+	MenuTitleBackground     "#b6a0ff"
+	MenuTitleForeground     "#1e1e1e"
+	MenuShadowColor			"#b6a0ff"
+
+	BorderColor				"#b6a0ff"
+
+	BorderTileBackground	"#b6a0ff"
+	BorderTileForeground	"#1e1e1e"
+
+	TitleBackground			"#b6a0ff"
+	TitleForeground			"#1e1e1e"
+
+	IconBackground			"#1e1e1e"
+	IconForeground			"#989898"
+	IconBorderColor			"#bba0ff"
+
+	IconManagerBackground	"#1e1e1e"
+	IconManagerForeground	"#b6a0ff"
+
+	MapWindowForeground		"#1e1e1e"
+	MapWindowBackground		"#b6a0ff"
+}
+
+# workspace list:
+# {bg-button, fg-button, bg-root, fg-root}
+
+
+WorkSpaces
+{
+    "1"    { "lavender" "black" "darkslateblue" "white" }
+    "2"    { "lavender" "black" "darkslateblue" "white" }
+    "3"    { "lavender" "black" "darkslateblue" "white" }
+    "4"    { "lavender" "black" "darkslateblue" "white" }
+    "5"    { "lavender" "black" "darkslateblue" "white" }
+}

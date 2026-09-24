@@ -1,0 +1,10 @@
+
+TitleButtonShadowDepth    1
+TitleShadowDepth          1
+TitleButtonBorderWidth    0
+TitlePadding              0
+TitleJustification        "center"
+ButtonIndent              0
+FramePadding		  0
+NoTitleHighlight
+NoSqueezeTitle
