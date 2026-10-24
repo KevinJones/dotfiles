@@ -1,0 +1,15 @@
+command = fish
+
+# I have observed that terminal applications *strongly assume*
+# dark-on-light colors, particularly for selection highlights.
+theme = Modus Vivendi
+
+font-family = Fira Code
+font-size = 24
+font-feature = -calt
+
+maximize = true
+
+adjust-cursor-thickness = 3
+cursor-opacity = 1
+background-opacity = 0.8
